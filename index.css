@@ -1,0 +1,944 @@
+.header-top a{
+    color: #333;
+    text-decoration: none;
+}
+
+.header-top {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.link-list {
+    display: flex;
+    justify-content: center;
+}
+
+.header-top-title img {
+    width: 150px;
+    position: absolute;
+    right: 360px;
+    top: -35px;
+}
+
+.header-top h1 {
+    color: #191970;
+    font-family: 'Fredoka One', cursive;
+    font-size: 70px;
+    padding-right: 60px;
+    padding-left: 20px;
+}
+
+header {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+
+.fb-button {
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+}
+
+.fb-button p {
+    font-size: 18px;
+    border-bottom: 2px solid #e73562;
+}
+
+.fb-button a {
+    color: #0068b7;
+    padding-left: 15px;
+}
+
+.fb-button a:hover {
+    opacity: 0.6;
+}
+
+.link:hover {
+    opacity: 0.6;
+}
+
+
+.link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.link a {
+    font-size: 18px;
+}
+
+
+.link img {
+    width: 35px;
+}
+
+.slide {
+    position   : relative;
+    overflow   : hidden;
+    width      : 1300px;
+    height     : 850px;
+    margin     : auto; 
+  }
+   
+  .slide img {
+    display    : block;
+    position   : absolute;
+    width      : inherit;
+    height     : inherit;
+    opacity    : 0;
+    animation  : slideAnime 24s ease infinite;
+    border-radius: 40px;
+  }
+   
+  .slide img:nth-of-type(1) { animation-delay: 0s }
+  .slide img:nth-of-type(2) { animation-delay: 4s }
+  .slide img:nth-of-type(3) { animation-delay: 8s }
+  .slide img:nth-of-type(4) { animation-delay: 12s }
+  .slide img:nth-of-type(5) { animation-delay: 16s }
+  .slide img:nth-of-type(6) { animation-delay: 20s }
+   
+  @keyframes slideAnime{
+     0% { opacity: 0 }
+     3% { opacity: 1 }
+    17% { opacity: 1 }
+    20% { opacity: 0 }
+   100% { opacity: 0 }
+  }
+
+body {
+    font-family: 'Kiwi Maru', serif;
+    background-image: url("./resources/back-star.jpg");
+}
+
+.head-top {
+    display: flex;
+    
+}
+
+.head-left p {
+    writing-mode: vertical-rl;
+    line-height: 40px;
+    font-size: 20px;
+    height: 600px;
+    background-color: #fff9f5;
+    padding: 30px 10px;
+    font-weight: lighter;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 5;
+    top: 390px;
+    left: 5px;
+}
+ .head-right {
+     margin: auto;
+ }
+
+ .vision {
+     display: flex;
+     justify-content: center;
+ }
+
+ .vision-inner {
+     border-radius: 40px;
+     width: 1100px;
+     padding: 50px;
+     margin-top: 100px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #fff9f5;
+ }
+
+ .vision-inner img {
+     width: 1100px;
+ }
+
+ .vision-inner p {
+     font-weight: lighter;
+     font-size: 18px;
+     line-height: 35px;
+ }
+
+.greeting {
+    width: 1200px;
+    background-color: #fff9f5;
+    border-radius: 40px;
+    margin: 200px auto 200px auto;
+    position: relative;
+}
+
+
+
+.greeting h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+
+.sakura {
+    position: relative;
+}
+
+.sakura img{
+    width: 260px;
+    position: absolute;
+    right: -70px;
+    bottom: 0;
+}
+
+.greeting-title p {
+    font-size: 35px;
+    padding: 10px 20px;
+    background-color: #fdd35c;
+    margin-top: -40px;
+}
+
+.greeting-title {
+    display: flex;
+    justify-content: center;
+}
+
+.greeting-inner-title {
+    display: flex;
+    align-items: center;
+}
+
+.greeting-inner-title h1 {
+    font-size: 23px;
+    padding-left: 10px;
+    text-decoration: underline;
+    text-decoration-color: #e73562;
+}
+
+.greeting-inner-title .triangle{
+    width: 32px;
+    height: 35px;
+}
+
+.greeting-text {
+    padding-left: 60px;
+}
+
+.greeting-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 40px auto;
+    width: 100%
+}
+
+.greeting-content p {
+    font-size: 15px;
+    width: 620px;
+    font-weight: lighter;
+    line-height: 28px;
+}
+
+.greeting-content .child-photo {
+    width: 400px;
+    height: 320px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    border: 10px solid #ffd3a8;
+}
+
+.recommend-photo {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 140px;
+}
+
+.recommend-photo img {
+    width: 270px;
+    height: 200px;
+    border-radius: 30px;
+    border: 5px solid #ffd3a8;
+}
+
+.sche-para {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.sche-inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.schedule {
+    width: 1320px;
+    margin: 80px auto 80px auto;
+    background-color: #fff9f5;
+    border-radius: 40px;
+}
+
+.sche-title {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sche-title h1 {
+    font-size: 35px;
+    padding: 10px 20px;
+    background-color: #2cb4ad;
+    margin-top: -40px;
+}
+
+.sche-content h2, .sche-content-rev h2{
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 60px;
+    width: 430px;
+    text-align: center;
+    color: #e73562;
+    background: linear-gradient(transparent 90%, yellow 90%);
+
+}
+
+.sche-content img, .sche-content-rev img{
+    width: 350px;
+    height: 250px;
+    border-radius: 40px;
+    border: 10px solid #ffd3a8;
+}
+
+.sche-content-rev .sche-para2, .sche-content .sche-para2 {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Londrina Shadow', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.sche-content-rev .sche-para1, .sche-content .sche-para1 {
+    background-color: #dbffff;
+    border-radius: 35px;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Londrina Shadow', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+}
+
+
+.sche-content, .sche-content-rev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+}
+
+
+.schedule .omutsu {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.recommend {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fff9f5;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 40px;
+}
+
+.recommend-inner-detail {
+    display: flex;
+   
+}
+
+.recommendation {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommend-inner .recommend1 {
+    padding:15px 25px;
+    background-color: #ffeaff;
+    border-radius: 30px;
+}
+
+.recommend-inner .recommend2 {
+    
+    padding:15px 25px;
+    background-color: #ffffea;
+    border-radius: 30px;
+}
+
+.recommend-inner .recommend3 {
+    
+    padding:15px 25px;
+    background-color: #eaffff;
+    border-radius: 30px;
+
+}
+
+
+.recommend-title {
+    display: flex;
+    justify-content: center;
+}
+
+.recommend-title h1 {
+    font-size: 35px;
+    padding: 10px 20px;
+    background-color: #f19ca7;
+    margin-top: -100px;
+}
+
+.recommend-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.recommend-subtitle img {
+    width: 32px;
+    height: 35px;
+}
+
+.recommend-subtitle p {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.recommend .recommend-button a{
+    font-size: 23px;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #e73562;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+.recommend .recommend-button a:hover {
+    opacity: 0.6;
+    transition-duration: 0.3s;
+}
+
+.recommend-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff9f5;
+    padding: 70px;
+    border-radius: 40px;
+}
+
+.contact-text {
+    padding-left: 50px;
+}
+
+.contact-text a {
+    color: #f39800;
+    font-size: 20px;
+    padding: 15px 20px;
+    border: 3px solid #f39800;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.contact-text a:hover {
+    background-color: #f39800;
+    transition-duration: 0.3s;
+    color: #fff;
+}
+
+.contact-title img {
+    padding-right: 10px;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+}
+
+.contact-text .address{
+    padding-bottom: 50px;
+}
+
+.cars {
+    display: flex;
+    justify-content: center;
+}
+
+.cars img {
+    margin-top: -30px;
+    width: 1200px;
+    height: 45px;
+}
+
+
+.slideshow img {
+    width: 400px;
+    height: 300px;
+}
+
+.slideshow {
+    display: flex;
+    animation: loop-slide 80s infinite linear 1s both;
+}
+
+.slideshow-wrap {
+    display: flex;
+    align-items: center;
+    height: 340px;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+@keyframes loop-slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  } 
+  
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer img {
+    width: 60px;
+    position: absolute;
+    left: 190px;
+    top: 10px;
+}
+
+.foot-title {
+    position: relative;
+    margin-top: 100px;
+}
+
+footer a {
+    font-family: 'Fredoka One', cursive;
+    color: #191970;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 1024px)  {
+
+    .header-top {
+        width: 800px;
+        margin-bottom: 30px;
+    }
+
+    .link img {
+        width: 30px;
+    }
+
+    .link a {
+        font-size: 15px;
+    }
+ 
+    .slide {
+        width : 800px;
+        height: 523px;
+      }
+
+      .header-top h1{
+          font-size: 55px;
+      }
+
+      .header-top-title img {
+        width: 110px;
+        right: 170px;
+        top: -20px;
+      }
+
+      .head-left p {
+        line-height: 30px;
+        top: 350px;
+        left: 30px;
+        z-index: 5;
+        font-size: 15px;
+        height: 450px;
+        padding: 20px 10px;
+    }
+
+
+    .vision-inner {
+        width: 750px;
+    }
+
+    .vision-inner img {
+        width: 800px;
+    }
+
+    .vision-inner p {
+        font-size: 15px;
+    }
+
+    .greeting {
+        width: 850px;
+    }
+
+    .greeting .sakura img {
+        display: none;
+    }
+
+    .greeting-content .child-photo {
+        width: 250px;
+        height: 200px;
+    }
+
+    .greeting-content p {
+        font-size: 14px;
+        width: 450px;
+        padding-bottom: 20px;
+    }
+
+    .recommend-photo img{
+        width: 250px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .recommend-photo {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .schedule {
+        width: 850px;
+    }
+
+    .sche-content img, .sche-content-rev img{
+        width: 250px;
+        height: 180px;
+    }
+    
+    .sche-content-rev .sche-para2, .sche-content .sche-para2 {
+        font-size: 9px;
+    }
+    
+    .sche-content-rev .sche-para1, .sche-content .sche-para1 {
+        font-size: 18px;
+    }
+
+    .sche-content h2, .sche-content-rev h2{
+        font-size: 35px;
+        width: 250px;
+    
+    }
+
+    .schedule .omutsu {
+        font-size: 15px;
+    }
+
+    .slideshow img {
+        width: 250px;
+        height: 180px;
+    }
+
+    .slideshow-wrap {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .recommend {
+        width: 800px;
+        margin: auto;
+    }
+
+    .recommend-button a{
+        font-size: 15px;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .contact {
+        width: 800px;
+        margin: auto;
+    }
+
+    .contact-content {
+        width: 100%;
+    }
+
+    .cars img {
+        width: 800px;
+    }
+
+    .contact-text a {
+        font-size: 17px;
+    }
+     
+    }
+
+    @media screen and (max-width: 768px) {
+        .header-top {
+            width: 650px;
+        }
+    
+        .header-top-title img {
+            right: 85px;
+        }
+    
+        .head-top {
+            width: 650px;
+            margin: auto;
+        }
+    
+        .slide {
+            width: 650px;
+        }
+    
+        .head-left p {
+            display: none;
+        }
+        
+        .vision-inner {
+            width: 600px;
+        }
+
+        .vision-inner img {
+            width: 600px;
+        }
+
+        .greeting {
+            width: 650px;
+        }
+
+        .greeting h2 {
+            font-size: 15px;
+        }
+
+        .greeting-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .schedule {
+            width: 670px;
+        }
+
+        .sche-content img, .sche-content-rev img{
+            width: 200px;
+            height: 130px;
+        }
+
+        .recommend {
+            width: 670px;
+        }
+
+        .recommend-button a{
+            font-size: 15px;
+            margin-top: 30px;
+            margin-right: 20px;
+        }
+    
+
+        .contact {
+            width: 670px;
+        }
+
+        .contact-content {
+            display: flex;
+            flex-direction: column;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 50px;
+        }
+
+        .cars img {
+            width: 670px;
+            height: 25px;
+        }
+
+        .contact-text a {
+            font-size: 14px;
+        }
+    
+    }
+
+@media screen and (max-width: 425px) { 
+    
+    .header-top {
+        width: 400px;
+        margin: auto;
+    }
+
+    .header-top h1 {
+        font-size: 35px;
+    }
+
+    .header-top-title img {
+        width: 60px;
+        right: 55px;
+    }
+
+    .head-top {
+        width: 400px;
+        margin: auto;
+    }
+
+    .fb-button p {
+        font-size: 12px;
+    }
+
+    .fb-button {
+        padding-left: 10px;
+    }
+
+    .fb-button a {
+        font-size: 15px;
+    }
+
+    .slide {
+        width: 400px;
+        height: 350px;
+    }
+
+    .head-left p {
+        display: none;
+    }
+    .header-top h1 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .vision-inner {
+        width: 300px;
+    }
+
+    .vision-inner img {
+        width: 380px;
+    }
+
+    .greeting {
+        width: 400px;
+    }
+
+    .greeting h2 {
+        font-size: 13px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .greeting-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .greeting-content p {
+        font-size: 10px;
+        width: 350px;
+    }
+
+    .greeting-inner-title h1 {
+        font-size: 20px;
+    }
+
+    .greeting-text {
+        padding-left: 10px;
+    }
+
+    .schedule {
+        width: 400px;
+    }
+
+    .sche-content img, .sche-content-rev img{
+        width: 200px;
+        height: 130px;
+    }
+
+    .recommend-photo img {
+        width: 390px;
+        height: 320px;
+    }
+
+    .recommend {
+        width: 400px;
+    }
+
+    .recommend-button a{
+        font-size: 10px;
+    }
+
+
+    .recommend-inner-detail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sche-content img, .sche-content-rev img {
+        display: none;
+    }
+
+    .contact {
+        width: 400px;
+    }
+
+    .contact iframe {
+        width: 370px;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 50px;
+    }
+
+    .cars img {
+        width: 400px;
+        height: 25px;
+    }
+
+    .contact-text a {
+        font-size: 14px;
+    }
+}
